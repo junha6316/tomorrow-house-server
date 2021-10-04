@@ -3,6 +3,7 @@
 * 루트 디렉토리에 있는 start.sh 실행
     맥의 경우 명령어 sh start.sh 
     윈도우 https://whareview.tistory.com/13
+* 실행시키면 "localhost:8000"에서 서버가 돌아가고 크롬에서 localhost:8000으로 접근 가능
 
 
 # 토큰 관련 API
