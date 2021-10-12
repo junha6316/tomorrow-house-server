@@ -1,3 +1,8 @@
+# 환경 세팅
+
+* pipenv shell # 가상환경 세팅
+* pipenv install # 프로젝트에 필요한 패키지 다운로드
+
 # 실행 방법
 
 * 루트 디렉토리에 있는 start.sh 실행
@@ -9,7 +14,7 @@
 # 토큰 관련 API
 
 1. 로그인
-POST token/
+POST /api/v1/users/token/
 parameter
     - username : 유저 이를
     - password : 비밀 번호
@@ -21,7 +26,7 @@ response
 
 
 2. 토큰 갱신
-POST token/refresh/
+POST /api/v1/users/token/refresh/
 parameter
     - refresh_token: 리프레쉬 토큰 
 
